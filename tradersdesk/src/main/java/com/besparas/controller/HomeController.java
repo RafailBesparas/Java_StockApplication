@@ -11,4 +11,9 @@ public class HomeController {
         return "Welcome to the Traders Desk";
     }
 
+    @GetMapping("/api")
+    public String secure(){
+        return "Welcome to the Traders Desk Secure Application";
+    }
+
 }
